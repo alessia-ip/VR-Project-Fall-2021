@@ -71,7 +71,7 @@ public class Violining : MonoBehaviour
     void Update()
     {
 
-        
+        //This was for testing on the computer. 
 
         /*if (Input.GetKey(KeyCode.Space))
         {
@@ -86,6 +86,12 @@ public class Violining : MonoBehaviour
             bowOn = false;
             movingArm = false;
         }*/
+        
+        //Rather than turn on an off audio sources, which are on a different object
+        //I'm just turning off the entire audio listener now that I have more than one source
+        //So this made transitions a little easier too, since the music is 'playing' based on the button presses
+        //but otherwise can't be heard if you're not 'playing'
+        
 
         if (playingViolin && bowOn  && movingArm)
         {
@@ -97,6 +103,7 @@ public class Violining : MonoBehaviour
         }
     }
 
+    //this does nothing right now :( couldn't get this working yet unfortunately
     void recurseHaptics()
     {
         _actionBasedController.SendHapticImpulse(0.7f, 0.1f);

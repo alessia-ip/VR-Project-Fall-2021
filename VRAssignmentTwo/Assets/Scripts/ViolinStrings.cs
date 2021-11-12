@@ -34,6 +34,12 @@ public class ViolinStrings : MonoBehaviour
         A - x
         E - grip*/
         
+        //rather than reference the in scene controllers I'm just getting the general actions
+        //right from the input prefab
+        
+        //this works the same as _actionBasedController.selectAction.action.performed
+        //but with some of the inputs that don't auto-show like 'OculusX' - which is the x key
+        
         _actionBasedController["OculusX"].performed += A_String_Activate;
         _actionBasedController["OculusY"].performed += D_String_Activate;
         _actionBasedController["OculusGrip"].performed += E_String_Activate;
