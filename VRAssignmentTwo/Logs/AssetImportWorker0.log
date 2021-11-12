@@ -2209,3 +2209,135 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.61 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 2.67 ms.
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.0 MB.
+System memory in use after: 196.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3186.
+Total: 67.380750 ms (FindLiveObjects: 0.521458 ms CreateObjectMapping: 0.061417 ms MarkObjects: 66.402041 ms  DeleteObjects: 0.394625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1247.032575 seconds.
+  path: Assets/Models/manhasset-music-stand
+  artifactKey: Guid(7582e496bc942425bb9e6abb7416911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand using Guid(7582e496bc942425bb9e6abb7416911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fc7f71c7ddea9743d72e56fad5f225') in 0.093277 seconds 
+  Import took 0.154876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.249069 seconds.
+  path: Assets/Models/manhasset-music-stand/source
+  artifactKey: Guid(a357649f1c60c491c8331e63b46a853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/source using Guid(a357649f1c60c491c8331e63b46a853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6770ac69279b555779b8568f602639ce') in 0.002374 seconds 
+  Import took 0.007203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Models/manhasset-music-stand/source
+  artifactKey: Guid(a357649f1c60c491c8331e63b46a853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/source using Guid(a357649f1c60c491c8331e63b46a853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6770ac69279b555779b8568f602639ce') in 0.000838 seconds 
+  Import took 0.004837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.117004 seconds.
+  path: Assets/Models/manhasset-music-stand/textures
+  artifactKey: Guid(a5ca3807fd31347f29d5a534bbbb5457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/textures using Guid(a5ca3807fd31347f29d5a534bbbb5457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e32a77c0abb2bb22e7d6c69d07edac3') in 0.005565 seconds 
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.271978 seconds.
+  path: Assets/Models/manhasset-music-stand/textures/black-plastic-texture-abstract-backgroud-used-93517777.jpeg
+  artifactKey: Guid(1618015e2f500498a8ddecd12f2b580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/textures/black-plastic-texture-abstract-backgroud-used-93517777.jpeg using Guid(1618015e2f500498a8ddecd12f2b580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef68309d857a2bca5ec28688f09092e9') in 0.911363 seconds 
+  Import took 0.915729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054508 seconds.
+  path: Assets/Models/manhasset-music-stand/textures/3f22022656a35de02e90b4cb88ec997a.jpeg
+  artifactKey: Guid(1ad13876abfe74bbeb438b07a7337012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/textures/3f22022656a35de02e90b4cb88ec997a.jpeg using Guid(1ad13876abfe74bbeb438b07a7337012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328b9bec581d5237303ce3d677915388') in 0.013679 seconds 
+  Import took 0.017898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Models/manhasset-music-stand/textures/3f22022656a35de02e90b4cb88ec997a.jpeg
+  artifactKey: Guid(1ad13876abfe74bbeb438b07a7337012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/textures/3f22022656a35de02e90b4cb88ec997a.jpeg using Guid(1ad13876abfe74bbeb438b07a7337012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328b9bec581d5237303ce3d677915388') in 0.007472 seconds 
+  Import took 0.011045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.601243 seconds.
+  path: Assets/Models/manhasset-music-stand/textures/cd794538bd2b55a5071ef92743eb4516.png
+  artifactKey: Guid(03641ecf8e8cc423c8667a1f5591b1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/manhasset-music-stand/textures/cd794538bd2b55a5071ef92743eb4516.png using Guid(03641ecf8e8cc423c8667a1f5591b1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf978b2bf6844748235b67189e3ddfc0') in 0.468651 seconds 
+  Import took 0.473525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 644.632478 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f4518175a77ea8edd76f4d552f0023') in 0.733006 seconds 
+  Import took 0.774721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025206 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f4518175a77ea8edd76f4d552f0023') in 0.012487 seconds 
+  Import took 0.015979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 529.902222 seconds.
+  path: Assets/Instructions
+  artifactKey: Guid(872b94fa6f26448a7894b1496215b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Instructions using Guid(872b94fa6f26448a7894b1496215b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda3aca6dc6e9a184450300e8458bef') in 0.006498 seconds 
+  Import took 0.015027 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 24.12 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 4.43 ms.
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.0 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 63.824750 ms (FindLiveObjects: 0.612333 ms CreateObjectMapping: 0.073708 ms MarkObjects: 62.747583 ms  DeleteObjects: 0.390167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
