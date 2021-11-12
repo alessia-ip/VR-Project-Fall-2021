@@ -154,6 +154,38 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "OculusX",
+                    "type": "Button",
+                    "id": "423c619f-b68e-45b8-81cd-e89a419562c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OculusY",
+                    "type": "Button",
+                    "id": "92e02707-c847-4eaa-bc7a-4ad8315d3a5f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OculusGrip",
+                    "type": "Button",
+                    "id": "8e2ee160-74d6-44c0-b080-21caf9525039",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OculusTrigger",
+                    "type": "Button",
+                    "id": "51561902-fbbb-42ed-ac1d-938d7126f4f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -486,6 +518,94 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "f547ec80-4437-498b-81d5-886746c1b4b9",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "OculusX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9d35fcf-d827-4077-9d43-acfe8239a279",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OculusX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "410326de-b0d9-40a4-8cc2-a6875b73bede",
+                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "OculusY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4469731-3712-4c6d-86f0-a2a958a00796",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OculusY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9df6e430-4360-44da-a660-ea7a1d592ea1",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "OculusGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e0a1c80-e519-49e2-9a55-12d2927ef1ff",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OculusGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78dedcdd-5990-457e-a10f-4da55a78adfc",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "OculusTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e026cb95-c4bb-491a-b9ac-9160a6dca214",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OculusTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },

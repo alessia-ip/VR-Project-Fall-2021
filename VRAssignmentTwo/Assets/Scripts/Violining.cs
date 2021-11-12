@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Inputs;
 
 public class Violining : MonoBehaviour
 {
@@ -69,22 +70,42 @@ public class Violining : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
+
+        /*if (Input.GetKey(KeyCode.Space))
+        {
+            playingViolin = true;
+            bowOn = true;
+            movingArm = true;
+        }
+        
+        if (Input.GetKey(KeyCode.Q))
+        {
+            playingViolin = false;
+            bowOn = false;
+            movingArm = false;
+        }*/
+
         if (playingViolin && bowOn  && movingArm)
         {
-            if (aud.isPlaying == false)
-            {
-                aud.Play();
-            }
+            AudioListener.pause = false;
         }
         else
         {
-            if (aud.isPlaying == true)
-            {
-                aud.Pause();
-            }
+            AudioListener.pause = true;
         }
     }
 
+    void recurseHaptics()
+    {
+        _actionBasedController.SendHapticImpulse(0.7f, 0.1f);
+        if (aud.isPlaying == true)
+        {
+            Invoke(nameof(recurseHaptics), 0.1f);
+        }
+    }
+    
 
     private void OnTriggerEnter(Collider other)
     {
